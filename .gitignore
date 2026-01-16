@@ -1,1 +1,26 @@
+alx-listing-app-deployed
+
+git clone https://github.com/YOUR_USERNAME/alx-listing-app-deployed.git
+cd alx-listing-app-deployed
+
+touch .env.local
+
+NEXT_PUBLIC_API_BASE_URL=https://your-api-endpoint.com
+
+.env.local
+
+axios.get("http://localhost:8000/properties");
+
+const response = await axios.get(
+  `${process.env.NEXT_PUBLIC_API_BASE_URL}/properties`
+);
+
+process.env.NEXT_PUBLIC_API_BASE_URL
+
+npm run build
+
+npm run start
+
+http://localhost:3000
+
 
